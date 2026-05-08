@@ -1,0 +1,67 @@
+/* Enviseo brand tokens — Kumo theme
+ * Source: Enviseo style guide (Clash Grotesk + Inter, navy/cyan palette)
+ */
+
+:root {
+  /* Brand palette */
+  --enviseo-primary: #0c1b30;
+  --enviseo-primary-foreground: #ffffff;
+  --enviseo-secondary: #588ffe;
+  --enviseo-secondary-foreground: #0c1b30;
+  --enviseo-tertiary: #1e2f47;
+  --enviseo-tertiary-foreground: #ffffff;
+  --enviseo-accent: #00b7f9;
+  --enviseo-accent-foreground: #0c1b30;
+  --enviseo-base: #010619;
+  --enviseo-neutral: #161616;
+
+  /* Surfaces */
+  --enviseo-background: #ffffff;
+  --enviseo-foreground: #0c1b30;
+  --enviseo-muted: #f4f6fb;
+  --enviseo-muted-foreground: #5b6577;
+  --enviseo-border: #e4e8f0;
+  --enviseo-ring: #588ffe;
+
+  /* Status */
+  --enviseo-success: #29a745;
+  --enviseo-danger: #dc3545;
+  --enviseo-warning: #ffc10a;
+  --enviseo-info: #2cb1e8;
+
+  /* Typography */
+  --enviseo-font-display: "Clash Grotesk", "Inter", system-ui, -apple-system, sans-serif;
+  --enviseo-font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* Type scale (1.333 ratio) */
+  --enviseo-text-xs:   0.75rem;
+  --enviseo-text-sm:   0.875rem;
+  --enviseo-text-base: 1rem;
+  --enviseo-text-md:   1.125rem;
+  --enviseo-text-lg:   1.333rem;
+  --enviseo-text-xl:   1.777rem;
+  --enviseo-text-2xl:  2.369rem;
+  --enviseo-text-3xl:  3.157rem;
+  --enviseo-text-4xl:  4.209rem;
+
+  /* Spacing scale */
+  --enviseo-space-xs:  0.83125rem;   /* 13.3px */
+  --enviseo-space-s:   1.25rem;      /* 20px   */
+  --enviseo-space-m:   1.875rem;     /* 30px   */
+  --enviseo-space-l:   2.8125rem;    /* 45px   */
+  --enviseo-space-xl:  4.21875rem;   /* 67.5px */
+  --enviseo-space-xxl: 6.328125rem;  /* 101.25px */
+
+  /* Radius */
+  --enviseo-radius-xs:  0.25rem;
+  --enviseo-radius-sm:  0.5rem;
+  --enviseo-radius-md:  0.75rem;
+  --enviseo-radius-lg:  1rem;
+  --enviseo-radius-xl:  1.5rem;
+  --enviseo-radius-2xl: 2rem;
+
+  /* Shadow */
+  --enviseo-shadow-m:  0 1px 2px rgba(12, 27, 48, 0.04), 0 2px 6px rgba(12, 27, 48, 0.05);
+  --enviseo-shadow-l:  0 2px 6px rgba(12, 27, 48, 0.05), 0 8px 24px rgba(12, 27, 48, 0.08);
+  --enviseo-shadow-xl: 0 4px 12px rgba(12, 27, 48, 0.08), 0 16px 40px rgba(12, 27, 48, 0.12);
+}
